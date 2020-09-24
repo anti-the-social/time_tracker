@@ -9,7 +9,7 @@ import CreateReport from "./pages/create_report.js";
 import Report from "./pages/report.js";
 import TimeTracking from "./pages/time_tracking.js";
 
-export default function App() {
+export default function Routing() {
   return (
     <Router>
       <div>
@@ -18,7 +18,7 @@ export default function App() {
             <Link to="/">Tracking</Link>
           </li>
           <li>
-            <Link to="/auth">About</Link>
+            <Link to="/auth">Auth</Link>
           </li>
           <li>
             <Link to="/create_report">Create report</Link>
