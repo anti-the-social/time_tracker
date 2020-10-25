@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 //import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 //import logo from "./logo.svg";
@@ -13,21 +13,6 @@ export default function Routing() {
   return (
     <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Tracking</Link>
-          </li>
-          <li>
-            <Link to="/auth">Auth</Link>
-          </li>
-          <li>
-            <Link to="/create_report">Create report</Link>
-          </li>
-          <li>
-            <Link to="/report">Report</Link>
-          </li>
-        </ul>
-
         <Switch>
           <Route exact path="/auth">
             <Auth />

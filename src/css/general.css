@@ -3,3 +3,23 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.top_line {
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+}
+.top_line img {
+  height: 60px;
+  width: 60px;
+  margin-left: 5px;
+  float: left;
+}
+.top_line h1 {
+  font-size: 25px;
+  line-height: 60px;
+  padding: 0;
+  margin: 0;
+  width: calc(100% - 160px);
+  margin-left: 65px;
+  text-align: center;
+}
